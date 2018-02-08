@@ -124,3 +124,7 @@ h2{
 a {
     text-decoration: none;
 }
+
+.group article a {
+    margin: 10px
+}
