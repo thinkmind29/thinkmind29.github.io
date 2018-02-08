@@ -8,7 +8,7 @@
 }
 .backgroud {
     background-image: url("assets/backg1.jpg");
-    background-size: cover;
+    background-size: 100%; 
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,8 @@ nav p:nth-child(1) {
 .inter {
 
     display: flex;
-    justify-content: center;
+    margin-top: 20px; 
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     flex-grow: 3;
@@ -66,14 +67,60 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 3;
        
 }
 
 .group article {
     margin: 10px;
-    padding: 10px
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
-    font-size: 14px
+    font-size: 14px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-grow: 3;
+}
+
+.infos {
+    display: flex;
+    /* margin: 15px; */
+    justify-content: center;
+}
+
+.infos article {
+    margin: 15px;
+
+}
+
+.infos article:nth-child(1){
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+.infos article:nth-child(3){
+    padding-left: 15px;
+    border-left: 1px solid white;
+}
+
+.develop {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
